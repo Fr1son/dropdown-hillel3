@@ -4,9 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DropDown</title>
+  <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="menu">
+          <li class="list-item"><a href="/">Home</a></li>
+          <li class="list-item pos"><a href="/">Products +</a>
+            <ul class="dropdown">
+              <li class="dropdown-item list-item"><a href="/">Product 1</a></li>
+              <li class="dropdown-item list-item"><a href="/">Product 2</a>
+                <ul class="dropdown dropdown-second">
+                  <li class="dropdown-item list-item"><a href="/">Product </a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="list-item"><a href="/">About</a></li>
+          <li class="list-item"><a href="/">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 </body>
 </html>
